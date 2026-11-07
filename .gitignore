@@ -1,0 +1,20 @@
+# Local secrets; keep only the safe template in Git.
+.env
+.env.*
+!.env.example
+
+# Local data and Python environments
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
